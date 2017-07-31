@@ -1,0 +1,50 @@
+<section id="gameSetupSectionId">
+    <div class="row">
+        <div class="col-md-7">
+            <div class="bg-success text-center">Game Setup</div>
+            <div class="well" role="form">
+                <table class="gameSetUpTable">
+                    <tr>
+                        <td>
+                            <label for="playerNameID">Player Name</label>
+                        </td>
+                        <td>
+                            <input id="playerNameID" type="text" data-bind="value: playerName"
+                                   placeholder="Enter your name"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="noOfTruckersID">Number of Truckers</label>
+                        </td>
+                        <td>
+                            <select id="noOfTruckersID" data-bind="options: noOfTruckers,
+                                        value: selectedNoOfTruckers, optionsCaption: 'Choose number of truckers'"></select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="intialFundId">Initial Funds</label>
+                        </td>
+                        <td class="input-group">
+                            <span class="input-group-addon">$</span>
+                            <input id="intialFundId" type="number" data-bind="value: initialFund"
+                                   onkeypress="return event.charCode >= 48" min="1"
+                                   placeholder="Enter your bet"> </input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="text-center">
+                            <input type="button" data-bind="click: startGame" value="Start Game!"
+                                   class="btn btn-success">
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="../js/gameSetup.js" type="text/javascript"></script>

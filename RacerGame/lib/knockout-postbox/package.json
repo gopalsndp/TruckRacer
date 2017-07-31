@@ -1,0 +1,55 @@
+{
+  "_from": "knockout-postbox",
+  "_id": "knockout-postbox@0.6.0",
+  "_inBundle": false,
+  "_integrity": "sha1-01yE2BK+2GqA0MBpdJEJ/v30Nqc=",
+  "_location": "/knockout-postbox",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "knockout-postbox",
+    "name": "knockout-postbox",
+    "escapedName": "knockout-postbox",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/knockout-postbox/-/knockout-postbox-0.6.0.tgz",
+  "_shasum": "d35c84d812bed86a80d0c069749109fefdf436a7",
+  "_spec": "knockout-postbox",
+  "_where": "C:\\PersonalGit\\TruckRacer\\RacerGame",
+  "bugs": {
+    "url": "https://github.com/rniemeyer/knockout-postbox/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "knockout-postbox ================ *knockout-postbox* is a [Knockout.js](http://knockoutjs.com/) plugin designed to use Knockout's basic pub/sub capabilities to facilitate decoupled communication between separate view models / components.",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-concat": "0.x.x",
+    "grunt-contrib-jasmine": "0.x.x",
+    "grunt-contrib-jshint": "0.x.x",
+    "grunt-contrib-uglify": "0.x.x",
+    "grunt-contrib-watch": "0.x.x",
+    "grunt-template-jasmine-istanbul": "^0.4.0"
+  },
+  "homepage": "https://github.com/rniemeyer/knockout-postbox#readme",
+  "main": "build/knockout-postbox.js",
+  "name": "knockout-postbox",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rniemeyer/knockout-postbox.git"
+  },
+  "scripts": {
+    "build": "grunt",
+    "test": "grunt jasmine",
+    "watch": "grunt watch"
+  },
+  "version": "0.6.0"
+}
